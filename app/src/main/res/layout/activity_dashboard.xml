@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:background="#e7e7e7"
     android:orientation="vertical"
+    android:id="@+id/LL_Main"
     tools:context="com.example.osp160.myapplication.activity.Dashboard">
 
 
     <include layout="@layout/toolbar"
-        android:id="@+id/Toolbar"></include>
+        android:id="@+id/toolbar"></include>
 
 
     <LinearLayout
